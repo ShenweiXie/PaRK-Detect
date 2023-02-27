@@ -17,18 +17,17 @@ outperformance in terms of inference speed.
 @publication = {BMVC 2022 (oral)}
 ```
 
-## 0. Introduction and Related Papers
+## 0. Introduction
 
 ## PaRK-Detect Scheme
-![PaRK-Detect Scheme](/fig/scheme.jpg)
+![PaRK-Detect Scheme](/fig/scheme.jpg) <br />
 
-**Illustration of PaRK-Detect scheme.** <br />
 **Left:** blue patches contain road while white patches are non-road, black dots are road keypoints, and green lines represent links. <br />
 **Right:** the reference point of relative offset is the upper left corner of a patch. Dark yellow patches are linked with the center patch while light yellow ones are not. <br />
 We order the eight adjacent patches into numbers 0-7. Here the linked patches are 2, 6, and 7.
 
 ## Framework
-![Framework](/fig/framework.jpg)
+![Framework](/fig/framework.jpg) <br />
 
 **Overview of multi-task framework architecture.** <br />
 The rectangles are feature maps of different scales. <br />
@@ -41,9 +40,8 @@ The rectangles are feature maps of different scales. <br />
 Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ## Graph Optimization Strategy
-![Graph Optimization Strategy](/fig/graph_optimization.jpg#pic_center)
+![Graph Optimization Strategy](/fig/graph_optimization.jpg#pic_center) <br />
 
-**Illustration of graph optimization strategies.** <br />
 **Left:** connecting adjacent but unconnected endpoints. Red solid lines are links added while red dotted lines are links that should not be added. <br />
 **Right:** removing triangle and quadrilateral. Red dotted lines are links removed.
 
@@ -61,8 +59,7 @@ Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ### Comparison with Other Methods
 ![Comparison](/fig/toronto.png) <br />
-**Up Left:** original satellite imagery. **Up Right:** road extraction results based on D-LinkNet. <br />
-**Down Left:** road extraction results based on VecRoad. **Down Right:** road extraction results based on PaRK-Detect scheme.
+**Up Left:** original satellite imagery. **Up Right:** road extraction results based on D-LinkNet. **Down Left:** road extraction results based on VecRoad. **Down Right:** road extraction results based on PaRK-Detect scheme.
 
 ![Table1](/fig/table1.jpg)![Table2](/fig/table2.jpg) <br />
 **Table1:** Comparison with segmentation-based approach on DeepGlobe and Massachusetts Roads Dataset. <br />
