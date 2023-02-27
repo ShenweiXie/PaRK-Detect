@@ -22,7 +22,7 @@ outperformance in terms of inference speed.
 ## PaRK-Detect Scheme
 ![PaRK-Detect Scheme](/img/scheme.jpg)
 
-Illustration of PaRK-Detect scheme.
+**Illustration of PaRK-Detect scheme.**
 Left: blue patches contain road while white patches are non-road, black dots are road keypoints, and green lines represent links. 
 Right: The reference point of relative offset is the upper left corner of a patch. Dark yellow patches are linked with the center 
 patch while light yellow ones are not. 
