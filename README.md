@@ -50,9 +50,11 @@ Here we just show 32^2 patches out of 64^2 for better presentation.
 ## 1. Code
 
 ### Preprocess
+STEP 1. Dataset preparation: download dataset(e.g. DeepGlobe) into /preprocess/image, /preprocess/mask.
+STEP 2. Follow the instructions provided in /preprocess/readme.txt to generate labels.
 
 ### Train
-
+Follow the D-LinkNet training process.
 - - -
 
 ## 2. Datasets and Benchmarks
