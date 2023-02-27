@@ -26,7 +26,7 @@ outperformance in terms of inference speed.
 ![PaRK-Detect Scheme](/img/scheme.jpg)
 
 ## Graph Optimization Strategy
-![GO1](/img/graph_optimization_1.jpg) ![GO2](/img/graph_optimization_1.jpg)
+![GO](/img/graph_optimization_1.jpg, /img/graph_optimization_1.jpg)
 
 - - -
 
