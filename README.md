@@ -26,7 +26,7 @@ outperformance in terms of inference speed.
 ![Framework](/img/framework.jpg)
 
 ## Graph Optimization Strategy
-![GO](/img/graph optimization.jpg)
+![GO](/img/graph_optimization.jpg)
 
 - - -
 
