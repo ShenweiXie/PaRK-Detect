@@ -23,30 +23,30 @@ outperformance in terms of inference speed.
 ![PaRK-Detect Scheme](/img/scheme.jpg)
 
 **Illustration of PaRK-Detect scheme.**
-Left: blue patches contain road while white patches are non-road, black dots are road keypoints, and green lines represent links. 
-Right: The reference point of relative offset is the upper left corner of a patch. Dark yellow patches are linked with the center 
-patch while light yellow ones are not. 
+Left: blue patches contain road while white patches are non-road, black dots are road keypoints, and green lines represent links. <br />
+Right: The reference point of relative offset is the upper left corner of a patch. Dark yellow patches are linked with the center <br />
+patch while light yellow ones are not. <br />
 We order the eight adjacent patches into numbers 0-7. Here the linked patches are 2, 6, and 7.
 
 ## Framework
 ![Framework](/img/framework.jpg)
 
-Overview of our proposed multi-task framework architecture. 
-The rectangles are feature maps of different scales. 
-I: input satellite image, 
-P: patch-wise road probability, yellow patches represent non-road while white patches represent road, 
-S: patch-wise road keypoint position, 
-L: patch-wise link status, 
-G: road graph, 
-M: road segmentation mask.
+**Overview of our proposed multi-task framework architecture.**
+The rectangles are feature maps of different scales. <br />
+I: input satellite image, <br />
+P: patch-wise road probability, yellow patches represent non-road while white patches represent road, <br />
+S: patch-wise road keypoint position, <br />
+L: patch-wise link status, <br />
+G: road graph, <br />
+M: road segmentation mask. <br />
 Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ## Graph Optimization Strategy
 ![GO](/img/graph_optimization.jpg#pic_center)
 
-Illustration of graph optimization strategies. 
+**Illustration of graph optimization strategies.**
 Left: connecting adjacent but unconnected endpoints. Red solid lines are links added while red dotted lines are links that should 
-not be added. 
+not be added. <br />
 Right: removing triangle and quadrilateral. Red dotted lines are links removed.
 
 - - -
