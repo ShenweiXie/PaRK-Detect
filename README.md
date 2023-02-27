@@ -31,11 +31,11 @@ We order the eight adjacent patches into numbers 0-7. Here the linked patches ar
 
 **Overview of multi-task framework architecture.** <br />
 The rectangles are feature maps of different scales. <br />
-**I:** input satellite image, <br />
-**P:** patch-wise road probability, yellow patches represent non-road while white patches represent road, <br />
-**S:** patch-wise road keypoint position, <br />
-**L:** patch-wise link status, <br />
-**G:** road graph, <br />
+**I:** input satellite image. <br />
+**P:** patch-wise road probability, yellow patches represent non-road while white patches represent road. <br />
+**S:** patch-wise road keypoint position. <br />
+**L:** patch-wise link status. <br />
+**G:** road graph. <br />
 **M:** road segmentation mask. <br />
 Here we just show 32^2 patches out of 64^2 for better presentation.
 
@@ -59,14 +59,15 @@ Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ### Comparison with Other Methods
 ![Comparison](/fig/toronto.png) <br />
-**Up Left:** original satellite imagery. **Up Right:** road extraction results based on D-LinkNet. **Down Left:** road extraction results based on VecRoad. **Down Right:** road extraction results based on PaRK-Detect scheme.
+**Up Left:** original satellite imagery. **Up Right:** road extraction results based on D-LinkNet. <br />
+**Down Left:** road extraction results based on VecRoad. **Down Right:** road extraction results based on PaRK-Detect scheme.
 
 ![Table1](/fig/table1.jpg)![Table2](/fig/table2.jpg) <br />
-**Table1:** Comparison with segmentation-based approach on DeepGlobe and Massachusetts Roads Dataset. <br />
-**Table2:** Comparison with graph-based approaches on RoadTracer Dataset. <br />
+**Tab 1:** Comparison with segmentation-based approach on DeepGlobe and Massachusetts Roads Dataset. <br />
+**Tab 2:** Comparison with graph-based approaches on RoadTracer Dataset. <br />
 
 ![Table3](/fig/table3.jpg) <br />
-**Table3:** Run-time in seconds of different approaches on one 8192×8192 test image.
+**Tab 3:** Run-time in seconds of different approaches on one 8192×8192 test image.
 
 ### Ablation Studies
 ![Ablation Studies](/fig/ablation_study.jpg)
