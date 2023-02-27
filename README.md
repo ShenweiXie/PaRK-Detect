@@ -42,7 +42,7 @@ M: road segmentation mask.
 Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ## Graph Optimization Strategy
-![GO](/img/graph_optimization.jpg)
+![GO]([/img/graph_optimization.jpg]#pic_center)
 
 Illustration of graph optimization strategies. 
 Left: connecting adjacent but unconnected endpoints. Red solid lines are links added while red dotted lines are links that should 
