@@ -14,7 +14,7 @@ outperformance in terms of inference speed.
 @title = {PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection},  
 @author = {Shenwei Xie (BUPT PRIS)}
 @time = {from 2021/11/01}
-@publication = {BMVC 2022 (oral)}
+@publication = {BMVC 2022 (oral), https://bmvc2022.mpi-inf.mpg.de/381/}
 ```
 
 ## 0. Introduction
