@@ -19,14 +19,14 @@ outperformance in terms of inference speed.
 
 ## 0. Introduction and Related Papers
 
-## Framework
-![Framework](/img/framework.jpg)
-
 ## PaRK-Detect Scheme
 ![PaRK-Detect Scheme](/img/scheme.jpg)
 
+## Framework
+![Framework](/img/framework.jpg)
+
 ## Graph Optimization Strategy
-![GO1](/img/graph_optimization_1.jpg)![GO2](/img/graph_optimization_2.jpg)
+![GO](/img/graph_optimization.jpg)
 
 - - -
 
