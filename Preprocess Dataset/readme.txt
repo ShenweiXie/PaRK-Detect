@@ -1,0 +1,7 @@
+image 文件夹包含xxx数据集的原始卫星图像
+mask 文件夹包含xxx数据集的原始分割掩码
+scribble 文件夹包含xxx数据集原始分割掩码经过 full2scribble.py 提取得到道路中心线标签
+key_points 文件夹包含xxx数据集的道路中心线标签scribble经过 find_key_points.py 提取到的道路支干关键点mat
+key_points_final 文件夹包含xxx数据集的道路支干关键点mat经过 format_transform.py 转换格式后的mat
+link_key_points_final 文件夹包含xxx数据集的道路支干关键点mat经过 add_link.py 加入关键点邻接关系后的mat
+test_key_points.py 和 test_link.py 分别用于测试提取到的关键点信息mat和加入邻接关系后的mat是否准确
