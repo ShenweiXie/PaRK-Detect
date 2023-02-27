@@ -20,7 +20,7 @@ outperformance in terms of inference speed.
 ## 0. Introduction and Related Papers
 
 ## PaRK-Detect Scheme
-![PaRK-Detect Scheme](/img/scheme.jpg)
+![PaRK-Detect Scheme](/fig/scheme.jpg)
 
 **Illustration of PaRK-Detect scheme.** <br />
 **Left:** blue patches contain road while white patches are non-road, black dots are road keypoints, and green lines represent links. <br />
@@ -28,7 +28,7 @@ outperformance in terms of inference speed.
 We order the eight adjacent patches into numbers 0-7. Here the linked patches are 2, 6, and 7.
 
 ## Framework
-![Framework](/img/framework.jpg)
+![Framework](/fig/framework.jpg)
 
 **Overview of our proposed multi-task framework architecture.** <br />
 The rectangles are feature maps of different scales. <br />
@@ -41,7 +41,7 @@ The rectangles are feature maps of different scales. <br />
 Here we just show 32^2 patches out of 64^2 for better presentation.
 
 ## Graph Optimization Strategy
-![GO](/img/graph_optimization.jpg#pic_center)
+![GO](/fig/graph_optimization.jpg#pic_center)
 
 **Illustration of graph optimization strategies.** <br />
 **Left:** connecting adjacent but unconnected endpoints. Red solid lines are links added while red dotted lines are links that should not be added. <br />
@@ -50,6 +50,10 @@ Here we just show 32^2 patches out of 64^2 for better presentation.
 - - -
 
 ## 1. Code
+
+### Preprocess
+
+### Train
 
 - - -
 
