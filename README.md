@@ -60,13 +60,13 @@ Here we just show 32^2 patches out of 64^2 for better presentation.
 ## 2. Datasets and Benchmarks
 
 ### Comparison with Other Methods
-![Comparison](/fig/toronto.png)
+![Comparison](/fig/toronto.png) <br />
 **Up Left:** original satellite imagery. <br />
 **Up Right:** road extraction results based on D-LinkNet. <br />
 **Down Left:** road extraction results based on VecRoad. <br />
 **Down Right:** road extraction results based on PaRK-Detect scheme.
 
-![Table1](/fig/table1.jpg)![Table2](/fig/table2.jpg)![Table3](/fig/table3.jpg)
+![Table1](/fig/table1.jpg)![Table2](/fig/table2.jpg)![Table3](/fig/table3.jpg) <br />
 Comparison with segmentation-based approach on DeepGlobe and Massachusetts Roads Dataset. <br />
 Comparison with graph-based approaches on RoadTracer Dataset. <br />
 Run-time in seconds of different approaches on one 8192×8192 test image.
