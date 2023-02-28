@@ -10,6 +10,8 @@ semantic segmentation and generates road segmentation masks. We evaluate our app
 DeepGlobe, Massachusetts Roads, and RoadTracer datasets and achieve competitive or better results. We also demonstrate a considerable 
 outperformance in terms of inference speed.
 
+https://arxiv.org/abs/2302.13263
+
 ```
 @title = {PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection},  
 @author = {Shenwei Xie (BUPT PRIS)}
